@@ -1,0 +1,406 @@
+/* Tablet and smaller (≤768px) */
+@media (max-width: 768px) {
+  body {
+    font-size: 15px;
+  }
+
+  #wrapper {
+    background-size: 60px 60px;
+  }
+
+  .content {
+    flex-direction: column;
+    padding-top: 2rem;
+  }
+
+  .content .left,
+  .content .right {
+    width: 100%;
+    padding: 0;
+    align-items: center;
+    text-align: center;
+  }
+
+  .content .left {
+    margin-bottom: 1.5rem;
+  }
+
+  .title {
+    font-size: 2rem;
+  }
+
+  .hat {
+    width: 50px;
+    height: 10px;
+    margin-top: -10px;
+    padding-right: 200px;
+    transform: rotate(-30deg);
+  }
+
+  #btn__letter {
+    font-size: 0.9rem;
+    padding: 8px 14px;
+  }
+}
+
+/* Small phones (≤480px) */
+@media (max-width: 480px) {
+  body {
+    font-size: 12px;
+  }
+
+  #wrapper {
+    background-size: 50px 40px;
+  }
+
+  .title {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+
+  .title .happy,
+  .title .birthday {
+    text-shadow: 3px 3px var(--color-black);
+  }
+
+  .title .hat {
+    right: 10px;
+    top: -100px;
+    transform: rotate(-20deg);
+    width: 60px;
+  }
+
+  #btn__letter {
+    font-size: 0.8rem;
+    padding: 6px 12px;
+    width: 200px;
+  }
+
+  .date__of__birth {
+    width: 200px;
+    height: 40px;
+    margin: 10px auto;
+    transform: translateY(0);
+  }
+
+  .name {
+    position: relative;
+    margin-top: 10px;
+    padding: 0 15px;
+    font-size: 1rem;
+  }
+
+  .content .right .image {
+    width: 200px;
+    height: 200px;
+    border-width: 4px;
+  }
+
+  .text__cricle {
+    width: 70px;
+    height: 70px;
+    border-width: 4px;
+  }
+
+  .text__cricle span {
+    font-size: 0.5rem;
+    transform-origin: 0 30px;
+  }
+
+  .birthday_banner {
+    display: none;
+  }
+
+  /* Decorations */
+  .right .balloon_one {
+    top: -60px;
+    left: -50px;
+    transform: scale(0.8);
+  }
+
+  .right .balloon_two {
+    top: 220px;
+    right: -40px;
+    transform: rotate(8deg) scale(0.8);
+  }
+  .decorate_flower--three { top: 120px; right: 150px; transform: scale(0.8); }
+  .smiley__icon { bottom: 120px; left: 70px; transform: scale(0.8); }
+}
+
+/* Very small phones (≤375px) */
+@media (max-width: 375px) {
+  body {
+    font-size: 11px;
+  }
+
+  .title {
+    font-size: 1.3rem;
+  }
+
+  #btn__letter {
+    font-size: 0.7rem;
+    padding: 5px 10px;
+    width: 180px;
+  }
+
+  .date__of__birth {
+    width: 180px;
+    height: 35px;
+  }
+
+  .name {
+    font-size: 0.9rem;
+    padding: 0 10px;
+  }
+
+  .content .right .image {
+    width: 180px;
+    height: 180px;
+  }
+
+  .text__cricle {
+    width: 60px;
+    height: 60px;
+  }
+
+  .text__cricle span {
+    font-size: 0.45rem;
+    transform-origin: 0 25px;
+  }
+
+  /* Decorations smaller */
+   .decorate_star { width: 10px; height: 10px; }
+  .decorate_flower--one, .decorate_flower--two, .decorate_flower--three { transform: scale(0.7); }
+  .smiley__icon { bottom: 100px; left: 150px; transform: scale(0.7); }
+}
+
+/* Extra small devices (≤345px) */
+@media (max-width: 345px) {
+  body {
+    font-size: 10px;
+  }
+
+  .title {
+    font-size: 1.2rem;
+    letter-spacing: 4px;
+  }
+
+  #btn__letter {
+    width: 150px;
+    font-size: 0.7rem;
+    padding: 5px 8px;
+  }
+
+  .date__of__birth {
+    width: 150px;
+    height: 30px;
+  }
+
+  .date__of__birth span {
+    font-size: 0.8rem;
+    margin: 0 6px;
+  }
+
+  .name {
+    font-size: 0.9rem;
+    padding: 0 8px;
+  }
+
+  .content .right .image {
+    width: 150px;
+    height: 150px;
+    border-width: 3px;
+  }
+
+  .text__cricle {
+    width: 55px;
+    height: 55px;
+    border-width: 3px;
+  }
+
+  .text__cricle span {
+    font-size: 0.4rem;
+    transform-origin: 0 22px;
+  }
+
+  .letter__border {
+    width: 95vw;
+    height: 240px;
+  }
+
+  .letter__border .letter .title__letter {
+    font-size: 1.1rem;
+  }
+
+  .content__letter .right .text__letter {
+    margin-top: 40px;
+    font-size: 0.7rem;
+  }
+
+  /* Decorations smallest */
+  .right .balloon_one { top: -20px; left: -40px; transform: scale(0.6); }
+  .right .balloon_two { top: -80px; right: -100px; transform: scale(0.6); }
+  .decorate_star, .decorate_flower--one, .decorate_flower--two, .decorate_flower--three, .smiley__icon { transform: scale(0.6); }
+  .birthday_banner { display: none; }
+}
+/* Tablet and smaller */
+@media (max-width: 768px) {
+  .balloon_sticker {
+    width: 50px;
+    height: 60px;
+  }
+
+  .balloon_left {
+    top: 300px;
+    left: 80px;
+  }
+
+  .balloon_right {
+    top: 180px;
+    right: 100px;
+  }
+}
+
+/* Small phones */
+@media (max-width: 480px) {
+  .balloon_sticker {
+    width: 50px;
+    height: 60px;
+    border-width: 2px;
+  }
+
+  .balloon_left {
+    top: 220px;
+    left: 20px;
+  }
+
+  .balloon_right {
+    top: 140px;
+    right: 50px;
+  }
+}
+
+/* Very small phones */
+@media (max-width: 375px) {
+  .balloon_sticker {
+    width: 50px;
+    height: 60px;
+  }
+
+  .balloon_left {
+    top: 180px;
+    left: 10px;
+  }
+
+  .balloon_right {
+    top: 120px;
+    right: 20px;
+  }
+}
+/* Tablet and smaller */
+@media (max-width: 768px) {
+  .smile_sticker {
+    width: 70px;
+    height: 70px;
+    font-size: 32px;
+    bottom: 250px;
+     margin-left: 180px;
+  }
+}
+
+/* Very small phones */
+@media (max-width: 375px) {
+  .smile_sticker {
+    width: 50px;
+    height: 50px;
+    font-size: 24px;
+    margin-left: 150px;
+    box-shadow: 3px 4px 0 var(--color-black);
+  }
+}
+/* Tablet and smaller */
+@media (max-width: 768px) {
+  .cricle {
+    top: 15px;
+    right: 30px;
+  }
+
+  .text__cricle {
+    width: 80px;
+    height: 80px;
+    border-width: 4px;
+  }
+
+  .text__cricle span {
+    font-size: 0.6rem;
+    transform-origin: 0 35px;
+  }
+  .content__letter .right .text__letter{
+    margin-top: -10px;
+}
+}
+
+/* Small phones */
+@media (max-width: 480px) {
+  .cricle {
+    top: 10px;
+    right: 20px;
+  }
+
+  .text__cricle {
+    width: 70px;
+    height: 70px;
+    border-width: 3px;
+  }
+
+  .text__cricle span {
+    font-size: 0.5rem;
+    transform-origin: 0 30px;
+  }
+    .content__letter .right .text__letter{
+    margin-top: -10px;
+}
+}
+
+/* Very small phones */
+@media (max-width: 375px) {
+  .cricle {
+    top: 8px;
+    right: 15px;
+  }
+
+  .text__cricle {
+    width: 60px;
+    height: 60px;
+  }
+
+  .text__cricle span {
+    font-size: 0.45rem;
+    transform-origin: 0 25px;
+  }
+}
+
+/* Extra small devices */
+@media (max-width: 345px) {
+  .cricle {
+    top: 5px;
+    right: 10px;
+  }
+
+  .text__cricle {
+    width: 55px;
+    height: 55px;
+    border-width: 3px;
+  }
+
+  .text__cricle span {
+    font-size: 0.4rem;
+    transform-origin: 0 22px;
+  }
+  .content__letter .right .text__letter{
+    margin-top: 150px;
+    padding: 20px 15px 10px 15px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.3rem;
+}
+}
