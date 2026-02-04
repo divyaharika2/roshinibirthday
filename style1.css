@@ -41,6 +41,11 @@
     font-size: 0.9rem;
     padding: 8px 14px;
   }
+   #btn__letter1 {
+    font-size: 0.7rem;
+    padding: 5px 10px;
+    width: 180px;
+  }
 }
 
 /* Small phones (≤480px) */
@@ -417,4 +422,33 @@
     font-family: 'Dancing Script', cursive;
     font-size: 1.3rem;
 }
+}/* Center the button container */
+.btn1 {
+  text-align: center;
+  margin: 30px 0;
+}
+
+/* Style the button itself */
+#btn__letter1 {
+  background: linear-gradient(135deg, #ff7eb3, #ff758c); /* gradient background */
+  color: #fff;                  /* white text */
+  font-size: 18px;              /* larger text */
+  font-weight: bold;            /* bold text */
+  padding: 14px 28px;           /* spacing inside */
+  border: none;                 /* remove default border */
+  border-radius: 10px;          /* rounded corners */
+  cursor: pointer;              /* pointer on hover */
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+/* Hover effect */
+#btn__letter1:hover {
+  transform: scale(1.05);       /* slight zoom */
+  box-shadow: 0 8px 16px rgba(0,0,0,0.25); /* shadow */
+}
+
+/* Active (click) effect */
+#btn__letter1:active {
+  transform: scale(0.95);       /* pressed look */
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
 }
